@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,8 +14,7 @@
   },
   "author": "Supatsara Rodratsa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Supatsara-Rodratsa/web-tooling-001/issues"
-  },
-  "homepage": "https://github.com/Supatsara-Rodratsa/web-tooling-001#readme"
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
 }
